@@ -1,0 +1,27 @@
+%rec: Codon
+%key: ID
+%mandatory: ID Title Type Status
+%type: Type enum Skill Template Doc
+%type: Status enum Active Draft Archived
+%doc: Codon — OpenClaw agent memory skill with JD-structured filesystem. Published on ClawHub.
+
+ID: 32.01
+Title: SKILL.md
+Type: Skill
+Status: Active
+File: SKILL.md
+Notes: Core skill file. AgentSkills-compatible. < 500 tokens.
+
+ID: 32.02
+Title: init.sh
+Type: Skill
+Status: Active
+File: init.sh
+Notes: Idempotent scaffolding script. Creates MEMORY/ taxonomy tree.
+
+ID: 32.03
+Title: README
+Type: Doc
+Status: Active
+File: README.md
+Notes: ClawHub listing description.
