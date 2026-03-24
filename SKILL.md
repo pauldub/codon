@@ -1,7 +1,7 @@
 ---
 name: codon
 description: Organize agent memory as a navigable filesystem. Every piece of information gets a numbered address (10.03-client-name.md) — no search required. Zero dependencies, human-readable.
-metadata: {"openclaw":{"emoji":"🧬","homepage":"https://github.com/pauldhubert/codon"}}
+metadata: {"openclaw":{"emoji":"🧬","homepage":"https://github.com/pauldub/codon"}}
 ---
 
 # Codon
